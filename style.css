@@ -1,0 +1,73 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #b63f3f;
+}
+.container {
+    background-image: url('images/background.jpg');  /* Path to your image */
+    background-size: cover;            /* Cover entire container */
+    width: 50%;
+    margin:0 auto;
+    background-position: center;       /* Center the image */
+    background-repeat: no-repeat;      /* Prevents tiling */
+    padding: 30px;                     /* Adds padding inside the container */
+    border-radius: 10px;               /* Optional: Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+    color: #fff;    
+}
+h1, h2 {
+    text-align: center;
+}
+form input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    height: 25px;
+}
+form button{
+    font:bold;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin-left: 90px;
+    height: 50px;
+    width:400px;
+    background-color: #ae1616;
+}
+form label{
+    background-color: #c3c3ac;      /* Highlight color */
+    color: #161414;                    /* Dark text for contrast */
+    padding: 3px 6px;               /* Padding around text */
+    border-radius: 4px;             /* Rounded corners */
+    font-weight: bold;              /* Bold for emphasis */
+    
+}
+#moviesList ul {
+    list-style-type: none;
+    padding: 0;
+}
+#moviesList li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+#moviesList img {
+    border-radius: 5px;
+    object-fit: cover;
+}
+#moviesList span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+#moviesList p {
+    margin-left: 10px;
+    align-content: right;
+    color:#fff;
+}
+#movieForm  {
+    width: 500px;
+    padding: 20px;
+}
+
+
